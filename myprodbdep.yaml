@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: vprodb
-          image: openumind/myprofiledb:V1
+          image: openumind/myprofiledb:v1
           # args:
           #   - "--ignore-db-dir=lost+found"
           volumeMounts:
